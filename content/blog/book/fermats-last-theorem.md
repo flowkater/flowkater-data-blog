@@ -6,6 +6,8 @@ category: book
 
 > “Cuius rei demonstrationem mirabilem sane detexi hanc marginis exiguitas non caperet. 나는 경이적인 방법으로 이 정리를 증명했다. 그러나 책의 여백이 너무 좁아 여기에 옮기지는 않겠다.”
 
+![](./images/fermat.jpg)
+
 ---
 
 페르마의 마지막 정리란, $"x^n+y^n=z^n$; n이 3이상의 정수일 때, 이 방정식을 만족하는 정수해 x, y, z는 존재하지 않는다." 이다.
