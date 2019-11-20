@@ -11,7 +11,20 @@ module.exports = {
     facebook: `https://www.facebook.com/flowkater`, // Your Facebook account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [
+    `blog`,
+    `data`,
+    `통계`,
+    `데이터분석`,
+    `책 리뷰`,
+    `개발`,
+    `자바스크립트`,
+    `프론트엔드`,
+    `백엔드`,
+    `머신러닝`,
+    `데이터과학`,
+    `AI`,
+  ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'flowkater/flowkater-data', // Your repository for archive comment
