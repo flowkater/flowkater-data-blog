@@ -10,7 +10,6 @@ export const SocialShare = ({ title, author }) => {
 
   const onClickTwitterIcon = e => {
     e.preventDefault()
-
     return shareToTwitter(window.location.href, text)
   }
 
