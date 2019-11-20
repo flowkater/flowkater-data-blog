@@ -2,6 +2,8 @@
 title: 블로깅 다시 시작하기
 date: 2019-11-13 11:11:68
 category: daily
+description: 최근에 리액트 개발을 다시 시작하면서, GatsbyJS를 이용하여 다시 블로깅을 시작하였습니다.
+keywords: ['Gatsbyjs', 'Blog', '블로깅', '개츠비']
 ---
 
 최근에 다시 리액트 개발을 시작하면서 여러가지 어려움에 봉착하였다.

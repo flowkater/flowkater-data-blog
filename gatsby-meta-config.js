@@ -6,9 +6,9 @@ module.exports = {
   siteUrl: `https://flowkater.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `http://github.com/flowkater`, // Your GitHub account
+    github: `flowkater`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `https://www.facebook.com/flowkater`, // Your Facebook account
+    facebook: `flowkater`, // Your Facebook account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [

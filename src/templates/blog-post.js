@@ -10,7 +10,6 @@ import { SocialShare } from '../components/social-share'
 import { SponsorButton } from '../components/sponsor-button'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
-import { Disqus } from '../components/disqus'
 import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 
@@ -25,11 +24,15 @@ export default ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const metaData = data.site.siteMetadata
   const { title, comment, siteUrl, author, sponsor } = metaData
-  const { disqusShortName, utterances } = comment
+  const { utterances } = comment
 
   return (
     <Layout location={location} title={title}>
-      <Head title={post.frontmatter.title} description={post.excerpt} />
+      <Head
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        keywords={post.frontmatter.keywords}
+      />
       <PostTitle title={post.frontmatter.title} date={post.frontmatter.date} />
       <PostContainer html={post.html} />
       <SocialShare title={post.frontmatter.title} author={author} />
@@ -39,14 +42,6 @@ export default ({ data, pageContext, location }) => {
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
-      {!!disqusShortName && (
-        <Disqus
-          post={post}
-          shortName={disqusShortName}
-          siteUrl={siteUrl}
-          slug={pageContext.slug}
-        />
-      )}
       {!!utterances && <Utterences repo={utterances} />}
     </Layout>
   )
@@ -75,6 +70,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        description
+        keywords
       }
     }
   }

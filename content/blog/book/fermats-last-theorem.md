@@ -2,6 +2,8 @@
 title: 페르마의 마지막 정리
 date: 2013-08-27 14:54:14
 category: book
+description: 나는 경이적인 방법으로 이 정리를 증명했다. 그러나 책의 여백이 너무 좁아 여기에 옮기지는 않겠다.
+keywords: ['책', '책 리뷰', '페르마의 마지막 정리', '페르마', '수학', '수학책']
 ---
 
 > “Cuius rei demonstrationem mirabilem sane detexi hanc marginis exiguitas non caperet. 나는 경이적인 방법으로 이 정리를 증명했다. 그러나 책의 여백이 너무 좁아 여기에 옮기지는 않겠다.”
