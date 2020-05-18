@@ -2,7 +2,7 @@
 title: <DataColon 개발 후기> - 1. 들어가며
 date: 2020-03-13 11:03:88
 category: project
-description: 부제 - 데이터 분석과 기획만 해온 사람의 풀스택 개발기
+description: 데이터 콜론 대표 강사의 풀스택 개발기
 keywords:
   [
     'DataColon',
@@ -17,12 +17,10 @@ keywords:
 
 **DataColon 개발 후기**
 
-부제 - 데이터 분석과 기획만 해온 사람의 풀스택 개발기
-
 - [1. 들어가며](http://flowkater.io/project/datacolonio-review-1/) (현재 글)
-- 2. 백엔드 편 (작성 중)
-- 3. 프론트엔드 편 (예정)
-- 4. 개발 외 이야기 (예정)
+- 2. 백엔드 편
+- 3. 프론트엔드 편
+- 4. 개발 외 이야기
 
 <br />
 
