@@ -2,7 +2,7 @@ module.exports = {
   title: `flowkater's data;`,
   description: `Blog posted about daily, reviews, devlog, TIL, data, math, statistics.`,
   author: `Jaewoo Cho (flowkater)`,
-  introduction: `작은 스타트업 합니다. 항상 생존이 우선이지만 그래도 하고 싶은거 하는 기획자 겸 개발자입니다. 아참, 데이터 과학 강의도 합니다.`,
+  introduction: `작은 스타트업을 운영합니다. 항상 생존이 최우선인 삶을 살지만 하고 싶은거 하고 삽니다. 개발을 잘할만큼 부지런하지는 못하지만, 개발을 즐길만큼 똑똑하긴 합니다.`,
   siteUrl: `https://flowkater.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
